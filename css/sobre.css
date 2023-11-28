@@ -1,0 +1,53 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+
+    background-color: rgb(231, 240, 240);
+    width: 80vw;
+
+    margin-top: 15px;
+    border-radius: 5%;
+}
+
+.container-header{
+    text-align: center;
+}
+
+h3{
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+h3.red{
+    color: red;
+    margin: 0;
+    font-style: italic;
+
+}
+
+.card-text{
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.like-counter{
+    margin-right: 5px;
+}
+
+.texto-sobre{
+    font-family: 'Poppins', sans-serif;
+    color: black; /* Cor do texto */
+    font-size: 20px; /* Tamanho da fonte */
+    text-align: center;
+    padding: 4px;
+}
+
